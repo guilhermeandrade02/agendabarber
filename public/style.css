@@ -1,0 +1,337 @@
+.fundo-quadrado {
+    background: #0a021d;
+}
+
+.table.table-sm,
+.table.table-sm tbody,
+.table.table-sm tr,
+.table.table-sm td {
+    border: none;
+}
+
+.table.table-sm td {
+    color: white;
+}
+
+.payment-method {
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background: #21026f;
+    margin-right: 10px;
+}
+
+.icon-contatos {
+    border-radius: 50px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background: #21026f;
+    margin-right: 10px;
+}
+
+.hr {
+    background: #21026f;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-contatos {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.nome {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.profissional {
+    display: flex;
+    align-items: center;
+}
+
+.iconify-icon {
+    margin-right: 10px;
+
+}
+
+.observacao {
+    font-size: 12px;
+}
+
+.nome-profissional {
+    margin-right: 40px;
+}
+
+
+.servico-cate {
+    display: flex;
+    align-items: center;
+}
+
+.button-agenda {
+    margin-left: auto;
+}
+
+.avaliacao {
+    margin-left: auto;
+}
+
+.info-profissional {
+    padding: 20px;
+}
+
+.avaliacao {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: #21026f;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button-agenda {
+    display: inline-block;
+}
+
+.nota {
+    font-size: 20px;
+    color: gold;
+}
+
+.nota-text {
+    font-size: 14px;
+}
+
+.hr-final {
+    border-width: 4px;
+
+    background: #21026f;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: ltr;
+    text-align: center;
+}
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    font-size: 36px;
+    color: gold;
+}
+
+.comment {
+    margin-top: 20px;
+}
+
+.comment-text {
+    background: #0a021d;
+    color: white;
+}
+
+.char-count {
+    color: gray;
+}
+
+.nome {
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nome.selected {
+    color: blue;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para o modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Estilos para o conteúdo do modal */
+.modal-conteudo {
+    background-color: #0a021d;
+    margin: auto;
+    /* Centralizar verticalmente e horizontalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 85%;
+    height: 80%;
+    max-width: 600px;
+    /* Definir largura máxima para o modal */
+}
+
+.modal-conteudo-confirmacao {
+    background-color: #0a021d;
+    margin: auto;
+    /* Centralizar verticalmente e horizontalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 85%;
+    height: 100%;
+    max-width: 585px;
+    /* Definir largura máxima para o modal */
+}
+
+/* Estilos para fechar o modal */
+.fechar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fechar:hover,
+.fechar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilos para o modal em dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .modal-conteudo {
+        width: 100%;
+        max-width: none;
+        border-radius: 0;
+        /* Remover bordas arredondadas */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-conteudo-confirmacao {
+        width: 100%;
+        max-width: none;
+        border-radius: 0;
+        /* Remover bordas arredondadas */
+    }
+}
+
+.semana-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dias-semana {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dia {
+    width: 60px;
+    height: 55px;
+    line-height: 40px;
+    text-align: center;
+
+
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .dia {
+        width: 45px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        margin: 3px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .dia {
+        width: 45px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        margin: 4px;
+    }
+}
+
+
+
+/* Página de agendamento */
+
+.dia {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.dia-selecionado {
+    border-color: blue;
+}
+
+.dia:not(.dia-selecionado) {
+    border-color: transparent;
+    /* Remove a borda dos dias não selecionados */
+}
+
+.semana-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dias-semana {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dia {
+    width: 60px;
+    height: 55px;
+    line-height: 40px;
+    text-align: center;
+
+
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .dia {
+        width: 45px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        margin: 3px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .dia {
+        width: 45px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        margin: 4px;
+    }
+}
